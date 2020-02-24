@@ -1,0 +1,36 @@
+{
+  "info":{
+    "year" : 2019,
+    "version" : 1,
+    "description" : "Batch 1, 400 h of piggy video",
+    "contributor" : "Ola Øren, ola.oren@acando.no, ola.oren@cgi.com",
+    "url" : "www.acando.no",
+    "date_created" : "2019-08-15T00:00:00.000Z"
+  },
+  "licenses":[
+    {
+      "id" : 1,
+      "name" : "Acando/CGI/NMBU",
+      "url" : "www.acando.no"
+    }
+  ],
+  "images":[],
+  "annotations":[],
+  "categories":[
+    {
+      "id" : 1,
+      "name" : "pig",
+      "supercategory" : "animal"
+    },
+    {
+      "id" : 2,
+      "name" : "pig-head",
+      "supercategory" : "animal"
+    },
+    {
+      "id" : 3,
+      "name" : "pig-tail",
+      "supercategory" : "animal"
+    }
+  ]
+}
