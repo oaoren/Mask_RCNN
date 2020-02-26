@@ -1,6 +1,6 @@
 01_input/01_video/*
-02_temp/dashboard/*
-02_temp/frames/*
-02_temp/frames_w_tags/*
-02_temp/spashed_frames/*
+02_temp/dashboard/*.jpg
+02_temp/frames/*.jpg
+02_temp/frames_w_tags/*.jpg
+02_temp/splashed_frames/*.jpg
 03_output/*
