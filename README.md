@@ -4,19 +4,19 @@ The project is based on the /samples/shapes example.
 prerequisites:
 * python
 * conda
-additional_prerequisites_training:
-* Nvidia GPU(s)
-* CUDA
+* additional prerequisites for training:
+  * Nvidia GPU(s)
+  * CUDA
 
 Setup:
 * Clone the repo
 * Place the model (.h5) file in the parent directory of this repo
-* Make sure the "model_path" variable is correct
+  * Make sure the "model_path" variable is correct
 * Place the "data" folder in the parent directory of this repo
-* Make sure the "DATA_DIR" variable is correct
-* run 'conda env create -f environment.yml' to create conda environment
-* run 'conda activate nmbu37' to activate the environment
-* run 'jupyter notebook'
+  * Make sure the "DATA_DIR" variable is correct
+* run ´conda env create -f environment.yml´ to create conda environment
+* run ´conda activate nmbu37´ to activate the environment
+* run ´jupyter notebook
 * browse project under /digipig/pig_shapes/01_train_evaluate_pigs_heads_tails_model.ipynb
 
 
