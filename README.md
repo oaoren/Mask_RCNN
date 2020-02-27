@@ -1,5 +1,10 @@
+This fork of Matterports Mask_RCNN contains an example to detect and segment pigs along with heads and tail regions.
 
+Example of annotated data:
 ![Pig annotations example](assets/pig_ann.png)
+
+Example of detection:
+![Pig detection and segmentation example](assets/pig_det.png)
 
 # Original readme starts here:
 # Mask R-CNN for Object Detection and Segmentation
