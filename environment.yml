@@ -1,0 +1,37 @@
+#To create conda env run next line
+#conda env create -f environment.yml
+#or create env in local folder by running next line
+#conda env create --prefix ./envs -f environment.yml
+#make sure to use environment pip when running next line
+#pip install opencv-contrib-python
+
+name: nmbu37
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - jupyter
+  - numpy
+  - scipy
+  - nb_conda_kernels
+  - ipykernel
+  #replace cpu with gpu on next line if GPUs are available
+  #>=1.3
+  #- tensorflow-cpu
+  - Pillow
+  - cython
+  - matplotlib
+  - scikit-image
+  - keras=2.2.5
+  - h5py
+  - IPython[all]
+  - pandas
+  - pip:
+    - tensorflow==1.14
+    #-gpu>=1.3
+    - opencv-contrib-python
+
+
+#  - imgaug
+#  - opencv-python
